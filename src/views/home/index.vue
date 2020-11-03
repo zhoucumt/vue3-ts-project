@@ -3,22 +3,23 @@
     <!-- 首页头部 -->
     <HomeHeader></HomeHeader>
 
+    <!-- 轮播图 -->
     <HomeSwiper></HomeSwiper>
 
     <!-- 课程列表 -->
-    <HomeList :lessonList="lessonList"></HomeList>
+    <HomeList></HomeList>
   </div>
 </template>
 
 <script lang="ts">
-import { defineComponent, computed, onMounted, ref } from "vue";
-import HomeHeader from "./home-header.vue";
-import HomeList from "./home-list.vue";
-import HomeSwiper from "./home-swiper.vue";
+import { defineComponent, computed, onMounted, ref } from 'vue';
+import HomeHeader from './home-header.vue';
+import HomeList from './home-list.vue';
+import HomeSwiper from './home-swiper.vue';
 // 专门为修改分类使用的options api
 
 export default defineComponent({
-  name: "index",
+  name: 'index',
   components: {
     HomeHeader,
     HomeList,

@@ -7,7 +7,7 @@
 import { defineComponent, computed, onMounted, ref } from "vue";
 
 export default defineComponent({
-  name: "header",
+  name: "home-header",
   setup() {
   }
 });
